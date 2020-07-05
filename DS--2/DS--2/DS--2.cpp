@@ -1,5 +1,9 @@
 ﻿#include <iostream>
-#include"Stack.h"
+#include "Stack.h"
+#include"Stack.cpp"
+#include<string>
+
+
 using namespace std;
 
 int main()
@@ -7,15 +11,33 @@ int main()
 
 
 
+	/*
+	// Test template :
 
+	Stack <string>  sts;
+	sts.push("Abdalalh");
+	sts.push("Emad");
+	sts.push("Mohamed");
 
+	cout << sts.top() << endl << endl;
 
+	sts.pop();   sts.pop();
 
+	cout << sts.top() << endl;
+		
+	<<<<<------------------------------------------->>>>>
 
+	Stack<int> stt;
+	stt.push(100);
+	stt.push(150);
+	stt.push(200);
 
+	cout << " Stack Size is : " <<  stt.getSize() <<  endl <<" Stack top is  : " << stt.top() << endl;
 
+	stt.pop();
 
-
+	cout << " Stack top is  : " << stt.top() << endl;
+	*/
 
 
     /*
@@ -31,6 +53,7 @@ int main()
 		sst.pop();
 	}
 	*/
+
 	
 	/*
 	Stack st;

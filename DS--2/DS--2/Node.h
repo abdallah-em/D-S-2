@@ -1,10 +1,11 @@
 #pragma once
+#include<string>
 
 template <class T>
 class Node
 {
 public:
-	int value;
+	T value;
 	Node<T>* next;
 
 	Node(T val);
