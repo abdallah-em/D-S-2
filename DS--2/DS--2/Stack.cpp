@@ -40,3 +40,11 @@ Stack::Stack() : head(nullptr) , size(0)
 {
 
 }
+
+Stack::~Stack()
+{
+	while (empty() == false)
+	{
+		pop();
+	}
+}

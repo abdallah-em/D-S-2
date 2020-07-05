@@ -17,7 +17,7 @@ public:
 	bool empty();
 	int getSize();
 	Stack();
-
+	~Stack();
 
 };
 
