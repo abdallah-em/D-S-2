@@ -1,29 +1,31 @@
 #include "Stack.h"
 
-int Stack::top()
+template <class T>
+ T Stack<T>::top()
 {
 	assert(empty() == false);
 	return head->value;
 }
 
-void Stack::pop()
+template <class T>
+void Stack<T>::pop()
 {
 	assert(empty() == false);
-	Node* tmp = head;
+	Node<T> * tmp = head;
 	head = head->next;
 	delete tmp;
 	size--;
 }
-
-void Stack::push(int val)
+template <class T>
+void Stack<T>::push(T val)
 {
-	Node* newNode = new Node(val);
+	Node<T> * newNode = new Node<T>(val);
 	newNode->next = head;
 	head = newNode;
 	size++;
 }
-
-bool Stack::empty()
+template <class T>
+bool Stack<T> ::empty()
 {
 	if (size == 0)
 		return true;
@@ -31,17 +33,20 @@ bool Stack::empty()
     	return false;
 }
 
-int Stack::getSize()
+template <class T>
+int Stack<T> ::getSize()
 {
 	return size;
 }
 
-Stack::Stack() : head(nullptr) , size(0)
+template <class T>
+Stack<T> ::Stack() : head(nullptr) , size(0)
 {
 
 }
 
-Stack::~Stack()
+template <class T>
+Stack<T>::~Stack()
 {
 	while (empty() == false)
 	{

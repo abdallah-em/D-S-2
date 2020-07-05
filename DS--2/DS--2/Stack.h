@@ -2,18 +2,19 @@
 #include"Node.h"
 #include<assert.h>
 
+template <class T>
 class Stack
 {
 private:
 
-	Node* head;
+	Node<T>* head;
 	int size;
 
 public:
 
-	int top();
+	T top();
 	void pop();
-	void push(int val);
+	void push(T val);
 	bool empty();
 	int getSize();
 	Stack();
