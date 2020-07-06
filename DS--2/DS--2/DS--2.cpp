@@ -1,9 +1,6 @@
 ﻿#include <iostream>
 #include<string>
 
-#include "Stack.h"
-#include"Stack.cpp"   
-
 #include"Queue.h"
 #include"Queue.cpp"
 
@@ -14,21 +11,26 @@
 using namespace std;
 
 int main()
-{
-	// mesh 3ayez y run ?? Queue class
+{      
+	// mesh 3ayez y run  ??   Queue class :
+
 	Queue<string> aa;
 	aa.push("Cycle");
     aa.push("Eight");
 	aa.push("Route");
     aa.push("Academy");
 
-	cout << aa.getsize() << aa.front() << endl;
-	/*
+
+	cout << aa.getsize() << endl << aa.front() << endl;
+	
 	aa.pop();      aa.pop();
-	cout << aa.front() << endl;
+	cout << aa.front() << ' ' << aa.back() << endl;
+
+
+	
 
 	//cout << aa.tail();
-	*/
+	
 
 
 

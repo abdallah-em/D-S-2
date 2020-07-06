@@ -4,17 +4,17 @@
 #include<string>
 #include<assert.h>
 
-
 template <class T>
 class Queue
 {
-private:
+public:
 	Node<T>* head;
 	Node<T>* tail;
 	int size;
 
-public:
+
 	T front();
+	T back();
 	void push(T val);
 	void pop();
 	int getsize();

@@ -1,8 +1,2 @@
 ﻿  DS--2.cpp
-C:\Users\joo\OneDrive\سطح المكتب\Abood GitHub\Assignments\D-S-2\DS--2\DS--2\Node.cpp(4,10): error C2995: 'Node<T>::Node(T)': function template has already been defined
-C:\Users\joo\OneDrive\سطح المكتب\Abood GitHub\Assignments\D-S-2\DS--2\DS--2\Node.h(11): message : see declaration of 'Node<T>::Node'
-C:\Users\joo\OneDrive\سطح المكتب\Abood GitHub\Assignments\D-S-2\DS--2\DS--2\Queue.cpp(34,17): error C3861: 'haed': identifier not found
-  Queue.cpp
-C:\Users\joo\OneDrive\سطح المكتب\Abood GitHub\Assignments\D-S-2\DS--2\DS--2\Queue.cpp(34,17): error C3861: 'haed': identifier not found
-  Stack.cpp
-  Generating Code...
+  DS--2.vcxproj -> C:\Users\joo\OneDrive\سطح المكتب\Abood GitHub\Assignments\D-S-2\DS--2\Debug\DS--2.exe

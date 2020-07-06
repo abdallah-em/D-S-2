@@ -9,6 +9,13 @@ T Queue<T>::front()
 		return head->value;
 }
 
+template<class T>
+T Queue<T>::back()
+{
+	assert(empty() == false);
+	return tail->value;
+}
+
 
 template<class T>
 void Queue<T>::push(T val)
@@ -31,11 +38,13 @@ template<class T>
 void Queue<T>::pop()
 {
 	assert(empty() == false);
-	Node<T>* tmp = haed->next;
+	Node<T>* tmp = head->next;
 	delete head;
 	head = tmp;
 	if (head == nullptr)
+	{
 		tail = nullptr;
+	}
 	size--;
 }
 
