@@ -1,7 +1,12 @@
 ﻿#include <iostream>
-#include "Stack.h"
-#include"Stack.cpp"
 #include<string>
+
+#include "Stack.h"
+#include"Stack.cpp"   
+
+#include"Queue.h"
+#include"Queue.cpp"
+
 #include<stack>
 #include<queue>
 
@@ -10,6 +15,22 @@ using namespace std;
 
 int main()
 {
+	// mesh 3ayez y run ?? Queue class
+	Queue<string> aa;
+	aa.push("Cycle");
+    aa.push("Eight");
+	aa.push("Route");
+    aa.push("Academy");
+
+	cout << aa.getsize() << aa.front() << endl;
+	/*
+	aa.pop();      aa.pop();
+	cout << aa.front() << endl;
+
+	//cout << aa.tail();
+	*/
+
+
 
 	/*
 	// queue by c++ library :
