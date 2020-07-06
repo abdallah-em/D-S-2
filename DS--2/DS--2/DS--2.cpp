@@ -2,6 +2,8 @@
 #include "Stack.h"
 #include"Stack.cpp"
 #include<string>
+#include<stack>
+#include<queue>
 
 
 using namespace std;
@@ -9,7 +11,29 @@ using namespace std;
 int main()
 {
 
+	/*
+	// queue by c++ library :
 
+	queue<char> ch;
+	ch.push('M'); 
+	ch.push('E');
+	ch.push('A');
+	ch.push('B');
+
+	cout << ch.back() << ' ' << ch.front() << endl;      ch.pop();    cout << ch.front() << endl;
+	*/
+
+
+	/*
+	// stack by c++ library :
+
+	stack<float> sa;
+	sa.push(10.5);
+	sa.push(15.5);
+	sa.push(20.5);
+	 
+	cout << sa.top() << endl;     sa.pop();     cout << sa.top() << endl;
+	*/
 
 	/*
 	// Test template :
